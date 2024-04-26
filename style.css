@@ -1,5 +1,5 @@
 body {
-  padding: 0;
+  padding: 50;
   margin: 0;
 }
 
@@ -23,7 +23,7 @@ h1 {
 
 .line {
   border: 1px solid black;
-  width: 600px;
+  width: 300px;
   height: 4px;
   background-color: burlywood;
 }
@@ -34,9 +34,9 @@ span {
 
 #inner-div {
   border: 1px solid burlywood;
-  width: 600px;
+  width: 300px;
   padding: 10px;
-  margin-top: 40px;
+  margin-top: 10px;
 }
 
 h2 {
@@ -44,8 +44,8 @@ h2 {
 }
 
 fieldset {
-  margin-bottom: 20px;
-  padding: 20px;
+  margin-bottom: 1px;
+  padding: 10px;
   justify-content: center;
   align-items: center;
   border: transparent;
@@ -57,7 +57,7 @@ h3 {
 
 #currency-Selector {
   height: 40px;
-  width: 100%;
+  width: 80%;
   padding: 10px;
   text-align: center;
   font-size: 18px;
@@ -71,7 +71,7 @@ h3 {
 #convert-Btn {
   padding: 10px;
   font-size: 20px;
-  margin-top: 20px;
+  margin-top: 10px;
   background-color: black;
   color: burlywood;
   border: 1px solid burlywood;
@@ -81,7 +81,7 @@ h3 {
 #clear-Btn {
   padding: 10px;
   font-size: 20px;
-  margin-top: 20px;
+  margin-top: 10px;
   background-color: black;
   color: burlywood;
   border: 1px solid burlywood;
@@ -91,7 +91,7 @@ h3 {
 
 #number-Input {
   height: 40px;
-  width: 100%;
+  width: 80%;
   text-align: center;
   font-size: 18px;
   margin-bottom: 10px;
@@ -100,9 +100,9 @@ h3 {
 }
 #display {
   color: white;
-  margin-top: 20px;
+  margin-top: 10px;
   border: 1px solid burlywood;
-  width: 600px;
+  width: 300px;
   padding: 10px;
   height: 50px;
   align-items: center;
