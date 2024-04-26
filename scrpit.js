@@ -38,14 +38,8 @@ function erase() {
 clearBtn.addEventListener("click", () => {
   erase();
 });
-clearBtn.addEventListener("ontouchstart", () => {
-  erase();
-});
 
 convertBtn.addEventListener("click", () => {
-  verify();
-});
-convertBtn.addEventListener("ontouchstart", () => 
   verify();
 });
 
