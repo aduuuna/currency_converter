@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency Convertor</title>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+  </head>
+  <body>
+    <div id="outer-div">
+      <h1>CU<span>RREN</span>CY &nbsp; CO<span>NVERT</span>ER</h1>
+      <hr class="line" />
+      <div id="inner-div">
+        <fieldset>
+          <h2>Choose Currency</h2>
+          <select id="currency-Selector">
+            <option value="1">Dollars to Cedis</option>
+            <option value="2">Cedis to Dollars</option>
+            <option value="3">Euros to Cedis</option>
+            <option value="4">Cedis to Euros</option>
+            <option value="5">Pounds to Cedis</option>
+            <option value="6">Cedis to Pounds</option>
+          </select>
+        </fieldset>
+        <fieldset>
+          <h3>Enter Amount:</h3>
+          <input id="number-Input" type="number" min="0" />
+          <button id="convert-Btn" onclick="verify()">Covert</button>
+          <button id="clear-Btn" onclick="erase()">Clear</button>
+        </fieldset>
+      </div>
+      <div id="display"></div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
+

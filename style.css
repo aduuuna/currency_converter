@@ -1,0 +1,113 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#outer-div {
+  height: 100vh;
+  /* background: repeating-linear-gradient(45deg, purple, black 6%);*/
+  overflow: hidden;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+}
+
+h1 {
+  color: white;
+  font-size: 50px;
+  margin-bottom: 2px;
+}
+
+.line {
+  border: 1px solid black;
+  width: 600px;
+  height: 4px;
+  background-color: burlywood;
+}
+
+span {
+  color: burlywood;
+}
+
+#inner-div {
+  border: 1px solid burlywood;
+  width: 600px;
+  padding: 10px;
+  margin-top: 40px;
+}
+
+h2 {
+  color: white;
+}
+
+fieldset {
+  margin-bottom: 20px;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  border: transparent;
+}
+
+h3 {
+  color: white;
+}
+
+#currency-Selector {
+  height: 40px;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  font-size: 18px;
+  background-color: burlywood;
+}
+
+#currency-Selector:active {
+  border: 3px solid black;
+}
+
+#convert-Btn {
+  padding: 10px;
+  font-size: 20px;
+  margin-top: 20px;
+  background-color: black;
+  color: burlywood;
+  border: 1px solid burlywood;
+  width: 110px;
+}
+
+#clear-Btn {
+  padding: 10px;
+  font-size: 20px;
+  margin-top: 20px;
+  background-color: black;
+  color: burlywood;
+  border: 1px solid burlywood;
+  width: 110px;
+  margin-left: 10px;
+}
+
+#number-Input {
+  height: 40px;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  background-color: burlywood;
+}
+#display {
+  color: white;
+  margin-top: 20px;
+  border: 1px solid burlywood;
+  width: 600px;
+  padding: 10px;
+  height: 50px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-size: 30px;
+}
+
