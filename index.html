@@ -14,24 +14,30 @@
         <fieldset>
           <h2>Choose Currency</h2>
           <select id="currency-Selector">
-            <option value="1">Dollars to Cedis</option>
-            <option value="2">Cedis to Dollars</option>
-            <option value="3">Euros to Cedis</option>
-            <option value="4">Cedis to Euros</option>
-            <option value="5">Pounds to Cedis</option>
-            <option value="6">Cedis to Pounds</option>
+            <option value="">Select conversion</option>
+            <option value="USD_GHS">USD to GHS</option>
+            <option value="GHS_USD">GHS to USD</option>
+            <option value="EUR_GHS">EUR to GHS</option>
+            <option value="GHS_EUR">GHS to EUR</option>
+            <option value="GBP_GHS">GBP to GHS</option>
+            <option value="GHS_GBP">GHS to GBP</option>
+            <option value="USD_EUR">USD to EUR</option>
+            <option value="EUR_USD">EUR to USD</option>
+            <option value="USD_GBP">USD to GBP</option>
+            <option value="GBP_USD">GBP to USD</option>
+            <option value="EUR_GBP">EUR to GBP</option>
+            <option value="GBP_EUR">GBP to EUR</option>
           </select>
         </fieldset>
         <fieldset>
           <h3>Enter Amount:</h3>
           <input id="number-Input" type="number" min="0" />
-          <button id="convert-Btn">Covert</button>
+          <button id="convert-Btn">Convert</button>
           <button id="clear-Btn">Clear</button>
         </fieldset>
       </div>
       <div id="display"></div>
     </div>
-    <script src="./script.js"></script>
+    <script src="scrpit.js"></script>
   </body>
 </html>
-

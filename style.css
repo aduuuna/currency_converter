@@ -102,12 +102,11 @@ h3 {
   color: white;
   margin-top: 10px;
   border: 1px solid burlywood;
-  width: 300px;
-  padding: 10px;
-  height: 50px;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-  font-size: 30px;
-}
+  width: 320px;
 
+  height: 70px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+}
