@@ -34,3 +34,10 @@ This project served as a practical application of web development concepts, enha
 - Implementing a more advanced UI with graphics and animations
 
 This currency converter represents a significant milestone in my journey as a web developer, demonstrating my ability to create functional and user-friendly web applications.
+
+## SCREENSHOTS
+
+![App's Interface](screenshots/ImageOne.png)
+![Failure to select a conversion option](screenshots/ImageTwo.png)
+![Entering a number which is eaither a negative number or zero](screenshots/ImageThree.png)
+![Selecting a conversion option "EUR to GHS" and typing a positive number](screenshots/ImageFour.png)
